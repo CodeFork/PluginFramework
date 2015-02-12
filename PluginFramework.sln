@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginFramework", "PluginFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginFramework.Demo", "PluginFramework.Demo\PluginFramework.Demo.csproj", "{10501E6C-A8DD-412F-BFCC-B8AED7F54179}"
 EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "PluginFramework.NuGet", "PluginFramework.NuGet\PluginFramework.NuGet.nuproj", "{F7A4111A-7523-454A-8CAD-50580E36B816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{10501E6C-A8DD-412F-BFCC-B8AED7F54179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10501E6C-A8DD-412F-BFCC-B8AED7F54179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10501E6C-A8DD-412F-BFCC-B8AED7F54179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A4111A-7523-454A-8CAD-50580E36B816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A4111A-7523-454A-8CAD-50580E36B816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A4111A-7523-454A-8CAD-50580E36B816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A4111A-7523-454A-8CAD-50580E36B816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

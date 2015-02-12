@@ -14,7 +14,7 @@ namespace PluginFramework.Demo
         static void Main(string[] args)
         {
             var loader = new PluginLoader();
-            loader.LoadAssembly(Assembly.GetExecutingAssembly());
+            loader.AddAssembly(Assembly.GetExecutingAssembly());
 
             var id = 1;
             loader.LoadTypesWithBase<Plugin>(p =>
